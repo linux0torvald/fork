@@ -1,4 +1,4 @@
 #!/bin/bash
-apt install figlet
-apt install ruby && gem install lolcat
+apt install figlet -y
+apt install ruby -y && gem install lolcat -y
 figlet installed | lolcat
